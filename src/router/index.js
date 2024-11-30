@@ -13,7 +13,7 @@ const router = createRouter({
     { path: "/jobs", name: "jobs", component: JobsView },
     { path: "/job/:id", name: "job", component: JobView },
     { path: "/jobs/add", name: "add-job", component: AddJobView },
-    { path: "/jobs/edit/:id", name: "add-job", component: EditJobView },
+    { path: "/jobs/edit/:id", name: "edit-job", component: EditJobView },
     { path: "/:catchAll(.*)", name: "not-found", component: NotFoundView },
   ],
 });
